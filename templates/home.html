@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deployed and Thriving 🚀</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+  <header>
+    <h1>Deployed. Live.</h1>
+    <p>This page is deployed using Render!</p>
+  </header>
+
+  <section class="content">
+    <button id="alertButton">Click Me</button>
+  </section>
+
+  <footer>
+    <p>© 2024 My First Deployment</p>
+  </footer>
+
+  <script>
+    document.getElementById('alertButton').addEventListener('click', () => {
+      alert('Hello! Your deployment works!');
+    });
+  </script>
+</body>
+</html>
